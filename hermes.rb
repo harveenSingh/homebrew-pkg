@@ -12,7 +12,7 @@ class Hermes < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    system "cargo", "install", "./crates/relayer-cli",  *std_cargo_args
+    system "cargo", "install", "./crates/relayer-cli" #, *std_cargo_args
   end
 
   test do

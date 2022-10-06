@@ -1,4 +1,3 @@
-
 class Hermes < Formula
   desc "IBC Relayer in Rust"
   homepage "https://hermes.informal.systems"
